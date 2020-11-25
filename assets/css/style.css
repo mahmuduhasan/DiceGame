@@ -7,21 +7,20 @@
 .screen {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(60deg, rgb(82, 82, 82), rgb(157, 157, 157));
-  background-size: 400%, 400%;
+  background: linear-gradient(45deg, rgb(82, 82, 82), rgb(206, 206, 206));
+  background-size: 200%, 200%;
   position: relative;
 }
 .left {
-  height: 650px;
+  height: 600px;
   width: 500px;
   background: rgba(255, 231, 184, 0.857);
   border-radius: 10px 0px 0px 10px;
 }
 .right {
-  height: 650px;
+  height: 600px;
   width: 500px;
   background: rgba(255, 231, 184, 0.857);
-  margin-left: -258px;
   border-radius: 0px 10px 10px 0px;
 }
 .frame {
@@ -82,25 +81,25 @@ main {
 #dice {
   font-size: 150px;
   margin-bottom: 150px;
-  color: rgba(106, 106, 106, 0.618)
+  color: rgba(220, 205, 205, 0.618)
 }
 .new-game {
   margin-bottom: 100px;
   color: rgb(85, 85, 85);
-  background: rgba(114, 114, 114, 0.398);
+  background: rgba(228, 228, 228, 0.398);
   padding: 15px 50px;
   border-radius: 30px;
 }
 .roll-dice {
-  color: rgb(77, 77, 77);
-  background: rgba(114, 114, 114, 0.398);
+  color: rgb(85, 85, 85);
+  background: rgba(228, 228, 228, 0.398);
   padding: 15px 30px;
   border-radius: 30px;
   margin-bottom: 30px;
 }
 .hold {
-  color: rgb(53, 53, 53);
-  background: rgba(114, 114, 114, 0.398);
+  color: rgb(85, 85, 85);
+  background: rgba(228, 228, 228, 0.398);
   padding: 15px 30px;
   border-radius: 30px;
 }
