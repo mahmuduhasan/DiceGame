@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/scripts/app.js" defer></script>
+  </head>
+  <body>
+    <section class="screen">
+      <div class="frame">
+        <div class="left active">
+          <div class="score">
+            <h3 class="player-name player-one">PLAYER 1</h3>
+            <h1 id="player-one-score" class="final-score">43</h1>
+          </div>
+          <div class="final-score current-first">
+            <h3>CURRENT</h3>
+            <h2 id="current-0" class="score-player-one">0</h2>
+          </div>
+        </div>
+        <div class="right">
+          <div class="score">
+            <h3 class="player-name player-two">PLAYER 2</h3>
+            <h1 id="player-two-score" class="final-score">24</h1>
+          </div>
+          <div class="final-score current-second">
+            <h3>CURRENT</h3>
+            <h2 id="current-1" class="score-player-two">0</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <div>
+        <a href="#" id="start-new-game"><p class="new-game"><i class="fas fa-sync-alt"></i> NEW GAME</p></a>
+        <div id="ludo-dice">
+          <i id="dice" class="fas fa-dice-five"></i>
+        </div>
+        <a href="#" id="dice-roll"><p class="roll-dice"><i class="fas fa-dice"></i> ROLL DICE</p></a>
+        <a href="#" id="hold"><p class="hold"><i class="far fa-pause-circle"></i> HOLD</p></a>
+      </div>
+    </main>
+  </body>
+</html>

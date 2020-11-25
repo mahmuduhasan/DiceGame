@@ -1,0 +1,112 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.screen {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(60deg, rgb(82, 82, 82), rgb(157, 157, 157));
+  background-size: 400%, 400%;
+  position: relative;
+}
+.left {
+  height: 650px;
+  width: 500px;
+  background: rgba(255, 231, 184, 0.857);
+  border-radius: 10px 0px 0px 10px;
+}
+.right {
+  height: 650px;
+  width: 500px;
+  background: rgba(255, 231, 184, 0.857);
+  margin-left: -258px;
+  border-radius: 0px 10px 10px 0px;
+}
+.frame {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.score h3 {
+  font-size: 30px;
+  color: rgb(102, 94, 94);
+}
+.score h1 {
+  font-size: 80px;
+  color: rgb(65, 65, 65);
+  margin-top: 30px;
+  font-weight: 400;
+}
+.score {
+  text-align: center;
+  margin-top: 100px;
+}
+.final-score {
+  margin-top: 130px;
+  height: 130px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 16px;
+}
+.final-score h3 {
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+}
+.final-score h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+.current-first {
+  background: rgb(143, 174, 173);
+}
+.current-second {
+  background: rgb(143, 174, 173);
+}
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#dice {
+  font-size: 150px;
+  margin-bottom: 150px;
+  color: rgba(106, 106, 106, 0.618)
+}
+.new-game {
+  margin-bottom: 100px;
+  color: rgb(85, 85, 85);
+  background: rgba(114, 114, 114, 0.398);
+  padding: 15px 50px;
+  border-radius: 30px;
+}
+.roll-dice {
+  color: rgb(77, 77, 77);
+  background: rgba(114, 114, 114, 0.398);
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+.hold {
+  color: rgb(53, 53, 53);
+  background: rgba(114, 114, 114, 0.398);
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+a {
+  text-decoration: none;
+}
+.active {
+  background-color: #ffadfcf8;
+}
