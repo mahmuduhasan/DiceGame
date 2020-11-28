@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dice Game</title>
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -37,12 +41,28 @@
     </section>
     <main>
       <div>
-        <a href="#" id="start-new-game"><p class="new-game"><i class="fas fa-sync-alt"></i> NEW GAME</p></a>
+        <a href="#" id="start-new-game"
+          ><p class="new-game"><i class="fas fa-sync-alt"></i> NEW GAME</p></a
+        >
         <div id="ludo-dice">
           <i id="dice" class="fas fa-dice-five"></i>
         </div>
-        <a href="#" id="dice-roll"><p class="roll-dice"><i class="fas fa-dice"></i> ROLL DICE</p></a>
-        <a href="#" id="hold"><p class="hold"><i class="far fa-pause-circle"></i> HOLD</p></a>
+        <a href="#" id="dice-roll"
+          ><p class="roll-dice"><i class="fas fa-dice"></i> ROLL DICE</p></a
+        >
+        <a href="#" id="hold"
+          ><p class="hold"><i class="far fa-pause-circle"></i> HOLD</p></a
+        >
+        <div class="final-win-score">
+          <input
+            id="win-score"
+            type="number"
+            placeholder="Enter Win Destination!"
+          />
+          <button id="start">
+            <p class="start"><i class="far fa-play-circle"></i> START</p>
+          </button>
+        </div>
       </div>
     </main>
   </body>
